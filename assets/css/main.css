@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    width: 1000px;
+    height: 680px;
+    background-color: #E2E6EA;
+    display: flex;
+    margin: auto;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+
+.container {
+    width: 900px;
+    height: 520px;
+    background-color: #fff;
+    display: flex;
+    margin: auto;
+    box-shadow: 0 0 10px rgb(0 0 0 / 80%);
+}
+
+.body-left {
+    width: 360px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-body {
+    padding: 32px 26px;
+}
+
+.header__nav-icon {
+    color: #E2E6EA;
+}
+
+.header__nav-text {
+    color: #0F0A0D;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.header__nav-icon1 {
+    color: #0F0A0D;
+}
+
+.header__nav-list {
+    padding: 32px 26px;
+}
+
+.body-right {
+    width: 540px;
+}
+
+.content {
+    padding: 16px 24px;
+}
+
+.content__cost {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #0F0A0D;
+}
+
+.content__heading {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #0F0A0D;
+}
+.content__desc {
+    font-size: 12px;
+    width: 260px;
+    color: #0F0A0D;
+}
+
+.content__watch-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+}
+
+.watch-info__body {
+    width: 104px;
+    margin-top: 30px;
+}
+
+.watch-info__body-heading {
+    font-size: 12px;
+    color: #0F0A0D;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.watch-info__body-desc {
+    color: #B1B9C8;
+    font-size: 10px;
+    margin-bottom: 18px;
+}
+
+.watch-info__img {
+    width: 110px;
+}
+
+.watch-info__series {
+    transform: rotate(-90deg);
+    width: 90px;
+}
+
+.series-text {
+    font-size: 10px;
+    color: #0F0A0D;
+    font-weight: 600;
+    width: 120px;
+    margin-top: 129px;
+}
+
+.body-right {
+    display: flex;
+}
+
+.watchinhand-1__img {
+    width: 270px;
+    height: 520px;
+}
+
+.watchinhand-2__img {
+    width: 270px;
+    height: 260px;
+}
+
+.watchinhand-2__body {
+    width: 270px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.watchinhand-2__body-heading {
+    font-size: 12px;
+    color: #9E5B4F;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.watchinhand-2__body-text {
+    font-size: 24px;
+    text-align: center;
+}
